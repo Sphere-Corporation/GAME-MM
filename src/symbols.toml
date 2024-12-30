@@ -1,0 +1,19 @@
+# symbols.toml
+#
+# Configuration for SPHERE-1 builds' common configuration
+#
+# (c) Andrew Shapton 2024
+#
+# Definition of the symbol table structure for different assemblers
+
+title = "Symbol table structure"
+
+[sbasm]
+symbolName          = 1           # Name of symbol and location in row
+symbolValue         = 3           # Value of symbol and location in row
+symbolValueFormat   = "?????XXXX" # Format of Symbol:
+                                  #   ? indicates character not of interest (to be stripped out) 
+                                  #   X indicates character of interest
+preamble            = 0           # Any rows to ignore at the beginning of the symbol file
+postamble           = 0           # Any rows to ignore at the end of the symbol file
+

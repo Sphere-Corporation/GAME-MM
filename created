@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#echo "DO NOT USE UNLESS YOU ARE ACTIVELY DEVELOPING THIS SOFTARE"
+#echo "COMMENT OUT THE BELOW LINE IF YOU ARE"
+#exit
+./build --config src/config.toml
+cp /Users/andrew.shapton/MyProjects/sphere/HOMEBREW/GAME-MM/ASSETS/mm.vcass  ../../SOFTWARE/site/devsite/cassettes/mm.vcass
+cp /Users/andrew.shapton/MyProjects/sphere/HOMEBREW/GAME-MM/src/MM.SYMBOLS  ../../SOFTWARE/site/devsite/cassettes/mm.symbols
