@@ -1,17 +1,7 @@
-# LANG-BF
+# GAME-MM
 
-![Sphere-F*** Logo](./sphere-bf-icon.png)
 
 ## Introduction
 
-A [SPHERE-1](https://sphere.computer) Interpreter for the classic [Esoteric Programming Language (esolang)](https://en.wikipedia.org/wiki/Esoteric_programming_language) BrainF***.
+A [SPHERE-1](https://sphere.computer) implementation of Henry Martinez' Mastermind game from 1977
 
-This is not meant to be a tutorial for the Brainf***. language. For information about the language, see the very informative [Wikipedia entry](https://en.wikipedia.org/wiki/Brainfuck).
-
-## Language Specification
-
-There is no official specification for the language, however, the minimal canonical specification does state the complete language grammar as part of the explanation as to what the language is about and what its purpose is.
-
-<https://esolangs.org/wiki/brainfuck>
-
-A list of [language characters](./doc/language.md) is included here for convenience.
